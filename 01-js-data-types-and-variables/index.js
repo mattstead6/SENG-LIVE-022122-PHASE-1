@@ -8,21 +8,69 @@
 
 // What is a variable?
 
+//Console.log() 
+//Node inside terminal to use as REPL 
+//Debugger 
+
+
 // How can a variable be declared
+
+//A place in memory for a value to be stored 
+//Container for some value 
+//Why use it? So we can reference that data later on 
+
+
 
 // What is the difference between let and const
 
+
+// Let allows reassigning variables – Use when we know value will change 
+
+// Const does not allow – Use when we know value won't change 
+
+// Scope: accessibility of the values and the variables 
+
+// Global: it's accessible everywhere in the file -- you can access it anywhere in your application. 
+
+// Local: Only accessible within the function that its been defined in 
+
+// Block scopes: only restricted within the block
+
+
+
 // ------------ 7 data types in JS: ------------
+// primitive data ty[es: just one value]
 
 // Number
 
+// Whole numbers: 3 
+// Float numbers: 3.14 
+// NaN: 'not a number' - mean something dealing with numbers went wrong, or some type of calculation is wrong
+
+
 // String
+
+//"this is a string"
+//'this is also a string'
+//`so is this` (back ticks for interpolation --> ${} - which is when we turn an expression into a string
+
 
 // Undefined
 
+// non-existant value; no value has been assigned; no value is attached to it
+
+
 // Null
 
+// empty/non existant value has to be assigned e.g. let b = null; b is null
+
 // Boolean
+
+// truthy or falsey values 
+// conditional statements to evaluate what is going to happen next
+
+// double bang operator (!!) will evaluate the boolean value of something (true or false)
+// bang operator (!) negate the value
 
 // examples of falsey values
 //  - 0
@@ -34,15 +82,18 @@
 
 // everything else is truthy
 
-// BigInt
+// BigInt ---- used for any numbers that are too large, and out of range for the Number type
 
-// Symbol
+// Symbol ---- used in objects as properties, used as a unique identifier for object props
+// key is an example of a symbol
 
 // What is the difference between null and undefined?
 
 // What is the relationship between data types and variables
 
 // ------------ Conditional statements ------------
+
+// use these to add contol flow to our application ---- want to perform diff things based on a condition
 
 // if...else
 
@@ -54,6 +105,13 @@
 // } else {
 //   console.log(`${pokemon} has ${likes} likes`);
 // }
+
+// ---logital operators---
+
+// === strict
+// == loose
+// !== strict (not)
+// != loose (not)
 
 // if...else if...else
 
@@ -73,9 +131,7 @@
 // condition ? truthy response : falsey response
 
 // let favorite = true
-
 // let response = favorite ? "❤️" : "♡"
-
 // console.log(response)
 
 // ------------------------------------------------ //
@@ -173,3 +229,6 @@
 // } else {
 // ...
 // }
+
+
+
